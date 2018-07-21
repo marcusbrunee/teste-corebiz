@@ -5,7 +5,7 @@ $(document).ready(function(){
 	}
 
 	for(var x = 1; x <=2; x++) {
-		var destaques = '<img src="assets/img/coluna_1.png" style="cursor: pointer;">';
+		var destaques = '<img src="assets/img/coluna_1.png" style="cursor: pointer;width:95%;">';
 		$('.destaques').append(destaques);
 	}
 
