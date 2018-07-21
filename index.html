@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Avaliação Corebiz</title>
+	<link rel="stylesheet" type="text/css" href="assets/css/index.css">
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css">
+	<script type="text/javascript" src="assets/plugins/jquery-3.3.1.min.js"></script>
+	<script type="text/javascript" src="assets/js/index.js"></script>
+	<script type="text/javascript" src="assets/plugins/jquery.validate.js"></script>
+</head>
+<body>
+	<!-- Topbar -->
+	<section class="topbar">
+		<input type="text" name="search" class="search" placeholder="Buscar">
+		<div align="right">
+			<a href="#"><i class="fas fa-user"></i> Minha conta</a>
+			<a href="#"><i class="fas fa-sign-in-alt"></i> Entrar</a>
+			<a href="#"><i class="fas fa-cart-plus"></i> Carrinho: 0 Item</a>
+		</div>
+		<hr>	
+	</section>
+	<!-- End Topbar -->
+	<!-- Header -->
+	<header>
+		<div align="center">
+			<img src="assets/img/logo.png" class="logotipo">
+		</div>
+		<!-- Menu -->
+		<nav class="menu">
+			<ul class="menu-sl">
+				<li><a href="#">camisas</a></li>
+				<li><a href="#">camisetas</a></li>
+				<li><a href="#">blusas</a></li>
+				<li><a href="#">bermudas</a></li>
+				<li><a href="#">calças</a></li>
+				<li><a href="#">acessórios</a></li>
+				<li><a href="#">sales</a></li>
+			</ul>
+		</nav>
+		<!-- End Menu-->
+		<!-- Card -->
+		<div class="card">
+			<!-- Frete -->
+			<div class="frete">
+				<div style="position:relative;float:left;">
+					<i class="fas fa-shipping-fast" style="font-size: 33px;"></i>
+				</div>
+				<div style="margin-left: 18%;margin-top: -4%;">
+					<h4>frete grátis p/ todo brasil</h4>
+					<p style="margin-top: -6%;">Nas compras acima de R$200</p>
+				</div>
+			</div>
+			<!-- Troca -->
+			<div class="troca">
+				<div style="position:relative;float:left;">
+					<i class="fas fa-calendar-alt" style="font-size: 33px;"></i>
+				</div>
+				<div style="margin-left: 13%;margin-top: -3%;">
+					<h4>30 dias de troca grátis</h4>
+					<p style="margin-top: -6%;">Você tem até 30 dias para trocar</p>
+				</div>
+			</div>
+			<!-- Pagamento -->
+			<div class="pagamento">
+				<div style="position:relative;float:left;">
+					<i class="fas fa-coins" style="font-size: 33px;"></i>
+				</div>
+				<div style="margin-left:15%;margin-top: -4%;">
+					<h4>pague em até 12x s/ juros</h4>
+					<p style="margin-top: -6%;">parcela mínima de R$50</p>
+				</div>
+			</div>
+			<!--Televendas -->
+			<div class="televendas">
+				<div style="position:relative;float:left;">
+					<i class="fas fa-phone-volume" style="font-size:33px;margin-top:6px;"></i>
+				</div>
+				<div style="margin-left:15%;margin-top: -4%;">
+					<h4>TELEVENDAS: (11) 4063-3682</h4>
+					<p style="margin-top: -6%;">Atendimento 24 Horas por dia</p>
+				</div>
+			</div>
+		</div>
+		<!-- End Card -->
+	</header>
+	<!-- End Header -->
+	<!-- Content -->
+	<section class="content">
+		<!-- Banners Estaticos -->
+		<div class="img-content" style="margin-top: 1%;">
+			<!-- Imagem Principal -->
+			<img src="assets/img/banner_summer.png" class="img-default">
+			<!-- Imagem Secundária -->
+			<div class="img-secundaria">
+				<img src="assets/img/collection_banner.png" class="img01">
+				<img src="assets/img/armani_banner.png" class="img02">
+				<img src="assets/img/collection_banner2.png" class="img03">
+			</div>
+		</div>
+		<!-- Banners Estáticos -->
+		<div>
+			<img src="assets/img/line.png" style="width: 102%;margin-top: 3%;">
+		</div>
+		<div class="destaques"></div>
+		<div>
+			<img src="assets/img/banner1.png" style="width: 100%;cursor: pointer;margin-top: 2%;">
+		</div>
+		<img src="assets/img/line2.png"  style="width: 100%;margin-top: 3%;">
+		<div id="anuncio-instragram" style="margin-top: 2%;" align="center"></div>
+		<img src="assets/img/line3.png" style="width: 100%;margin-top: 3%;">
+	</section>
+	<!-- End-content -->
+	<!-- Footer -->
+	<footer>
+		<div class="institucional">
+			<h4 style="color: #333333;">Institucional</h4>
+			<p><i class="fas fa-arrow-right"></i> Quem somos</p>
+			<p><i class="fas fa-arrow-right"></i> Contato</p>
+		</div>
+		<div class="ajuda_suporte">
+			<h4 style="color: #333333;">Ajuda & Suporte</h4>
+			<p><i class="fas fa-arrow-right"></i> Como compra</p>
+			<p><i class="fas fa-arrow-right"></i> Termos e Condições</p>
+		</div>
+		<div class="newsletter">
+			<form method="POST" id="newsletter">
+				<h4 style="color: #333333;">Newsletter</h4>
+				<input type="text" name="newsletter_inp" placeholder="Insira seu e-mail">
+				<button class="assinar-btn">Assinar</button>
+				<!-- Error message -->
+				<div id="error_msg"></div>
+			</form>
+		</div>
+		<div class="redes-sociais">
+			<h4 style="color: #333333;">Redes Sociais</h4>
+			<img src="assets/img/redes-sociais.png" align="center" style="cursor: pointer;">
+		</div>
+		<hr class="line-payment">
+		<img src="assets/img/formas_pagamento.png" style="margin-top: 1%;cursor: pointer;">
+		<hr class="line-payment">
+		<div class="copyright" align="center">
+			<p>© 2015 Loja Virtual. Todos os direitos reservados.</p>
+		</div>
+	</footer>
+</body>
+</html>

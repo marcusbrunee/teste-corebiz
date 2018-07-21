@@ -1,0 +1,187 @@
+html, body {
+	padding: 2%;
+	margin-top: -3%;
+}
+
+.assinar-btn { 
+	border: none;
+	height: 29px;
+	margin-left: -5px;
+	color: white;
+	background-color: black;
+	cursor: pointer;
+	display: inline-block;
+}
+
+input[type=text] {
+	padding: 5px;
+}
+
+a {
+	color: #000000;
+}
+
+a:link{
+	font-weight: bold;
+	text-decoration: none;
+	font-family: 'Arial';
+	margin: 2px;
+}
+
+/* Menu */
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #7e7e7e;
+	text-transform: uppercase;
+	border-bottom: 2px solid #000000;
+} 
+
+li {
+	float: left;
+}
+
+li a {
+	display: block;
+	color: white;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+}
+
+li a:hover {
+	background-color: #919090;
+}
+
+h1, h2, h3, h4, h5 {
+	text-transform: uppercase;
+	font-family: 'Arial';
+}
+
+p {
+	font-family: 'Arial';
+}
+
+hr.line-payment {
+    border: 0;
+    border-bottom: 1px dashed #ccc;
+    background: #999;
+}
+
+
+/* Imagens Estáticas */
+.img-default {
+	width: 100%;
+	cursor: pointer;
+}
+
+.img-secundaria {
+	width: 100%;
+    height: 192px;
+    background-color: transparent;
+    display: inline-block;
+}
+
+.img01 {
+	display: inline-block;
+	width: 33%;
+}
+
+
+.img02 {
+	display: inline-block;
+	width: 33%;
+	margin: 1px;
+}
+
+.img03 {
+	display: inline-block;
+	width: 33%;
+}
+/* Imagens Estáticas */
+
+.search {
+	border: 2px solid #ccc;
+	box-sizing: border-box;
+	margin-top: 1%;
+	width: 24%;
+	position: relative;
+	top: 18px;
+	background-image: url('../img/search.png');
+	background-position: 100% 6px; 
+	background-repeat: no-repeat;
+}
+
+.logotipo {
+	margin-top: -4%;
+}
+
+.frete {
+	font-size: 12px;
+	margin-top: 2%;
+	width: 28%;
+	display: inline-block;
+	color: #a1a1a1;
+}
+
+.error {
+	color: red;
+	font-family: 'Arial';
+}
+
+.troca {
+	margin-left: -1%;
+	font-size: 12px;
+	margin-top: 2%;
+	width: 28%;
+	display: inline-block;
+	color: #a1a1a1;
+}
+
+.pagamento {
+	margin-left: -3%;
+	font-size: 12px;
+	margin-top: 2%;
+	width: 28%;
+	display: inline-block;
+	color: #a1a1a1;
+}
+
+.televendas {
+	margin-left: -4%;
+	font-size: 12px;
+	margin-top: 2%;
+	width: 22%;
+	display: inline-block;
+	color: #a1a1a1;
+}
+
+.institucional {
+	width: 20%;
+	display: inline-block;
+}
+
+.ajuda_suporte {
+	width: 25%;
+	display: inline-block;
+}
+
+.newsletter {
+	width: 28%;
+	display: inline-block;
+	position: absolute;
+}
+
+.redes-sociais {
+	width: 19%;
+	display: inline-block;
+	position: absolute;
+	margin-left: 28%;
+}
+
+#anuncio-instragram {
+	width: 100%;
+	display: inline-block;
+}
