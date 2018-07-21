@@ -13,6 +13,10 @@ html, body {
 	display: inline-block;
 }
 
+.assinar-btn:hover { 
+	background-color: #343434;
+}
+
 input[type=text] {
 	padding: 5px;
 }
@@ -77,6 +81,11 @@ hr.line-payment {
 	cursor: pointer;
 }
 
+.img-default:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
 .img-secundaria {
 	width: 100%;
     height: 192px;
@@ -87,6 +96,7 @@ hr.line-payment {
 .img01 {
 	display: inline-block;
 	width: 33%;
+	cursor: pointer;
 }
 
 
@@ -94,11 +104,29 @@ hr.line-payment {
 	display: inline-block;
 	width: 33%;
 	margin: 1px;
+	cursor: pointer;
 }
 
 .img03 {
 	display: inline-block;
 	width: 33%;
+	cursor: pointer;
+}
+
+.img01:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+
+.img02:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
+}
+
+.img03:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
 }
 /* Imagens Estáticas */
 
@@ -184,4 +212,14 @@ hr.line-payment {
 #anuncio-instragram {
 	width: 100%;
 	display: inline-block;
+}
+
+.img_instagram {
+	margin-right:30px;
+	cursor:pointer;
+}
+
+.img_instagram:hover {
+	opacity: 0.5;
+	filter: alpha(opacity=50);
 }

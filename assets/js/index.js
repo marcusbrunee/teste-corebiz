@@ -1,6 +1,6 @@
 $(document).ready(function(){
 	for(var i = 1; i <= 6; i++){
-		var img = '<img src="assets/img/anuncio.png"  style="margin-right:30px;cursor:pointer;">';
+		var img = '<img src="assets/img/anuncio.png" class="img_instagram">';
 		$("#anuncio-instragram").append(img);
 	}
 
