@@ -26,7 +26,7 @@ a {
 }
 
 a:link{
-	font-weight: bold;
+	font-weight: 500;
 	text-decoration: none;
 	font-family: 'Arial';
 	margin: 2px;
