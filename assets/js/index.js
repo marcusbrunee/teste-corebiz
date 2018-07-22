@@ -15,7 +15,8 @@ $(document).ready(function(){
 		wrapper: "div",
 		rules: {
 			newsletter_inp: {
-				required: true
+				required: true,
+				email: true
 			}
 		},
 		messages: {
